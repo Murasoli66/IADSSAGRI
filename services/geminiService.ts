@@ -32,7 +32,7 @@ const fileToGenerativePart = async (file: File) => {
   };
 };
 
-const aiNotConfiguredError = "AI Service is not configured. Please ensure the API key is set up correctly.";
+const aiNotConfiguredError = "AI Service is not configured. Please ensure the API key is set up correctly.Murasolimaran";
 
 
 export const getCropRecommendationsFromImage = async (imageFile: File, language: string): Promise<CropRecommendation[]> => {
